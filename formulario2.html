@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >  
+        <fieldset>
+            <legend> Dados Pessoais </legend>
+            <label> Nomes: <input type="text" name="nome" required ></label><br />
+            <label><p>Endereço:<input type="text" name="endereço" required /></p</label><br />
+                <label><p>Cidade:<input type="text" name="cidade" required /></p</label><br />
+                    <label> Estado:
+                    <select name= "Estado">
+                        <option value="AC" >Acre</option>
+                        <option value="AL" >Alagoas</option>
+                        <option value="AP" >Amapá</option>
+                        <option value="AM" >Amazonas</option>
+                        <option value="BA" >Bahia </option>
+                        <option value="CE" >Ceará </option>
+                        <option value="DF" >Distrito Federal </option>
+                        <option value="ES" > Espírito Santo </option>
+                        <option value="GO" >Goiás </option>
+                        <option value="MA" >Maranhão </option>
+                        <option value="MT" > Mato Grosso </option>
+                        <option value="MS" >Mato Grosso do Sul </option>
+                        <option value="MI" >Minas Gerais </option>
+                        <option value="PA" >Pará </option>
+                        <option value="PB" >Paraíba </option>
+                        <option value="PR" >Paraná </option>
+                        <option value="PE" >Pernambuco </option>
+                        <option value="PI" >Piauí </option>
+                        <option value="RJ" >Rio de Janeiro </option>
+                        <option value="RN" >Rio Grande do Norte </option>
+                        <option value="RS" >Rio Grande do Sul </option>
+                        <option value="RO" >Rondônia </option>
+                        <option value="RR" >Roraima </option>
+                        <option value="SC" >Santa Catarina </option>
+                        <option value="SP" >São Paulo </option>
+                        <option value="SE" >Sergipe </option>
+                        <option value="TO" >Tocantins </option>
+                        </select>
+                    </label>
+                    </fieldset>
+              <br>
+                <fieldset>
+        <legend> Dados Profissionais </legend> <label> Natureza do Cargo
+            <br>
+        <input type="radio" name="Cargo" value="1" checked /> Gerência
+        <input type="radio" name="Cargo" value="2" /> Financeiro
+        <input type="radio" name="Cargo" value="3" /> Recepção
+        <input type="radio" name="Cargo" value="4" /> Administração
+        <input type="radio" name="Cargo" value="5" /> Juridico
+        <br>
+        <br>
+        <label> Área de Interesse
+            <br>
+            <input type="checkbox" name="area1" value="COM" /> Computação
+            <input type="checkbox" name="area2" value="BIO" /> Biologia
+            <input type="checkbox" name="area3" value="MEI" /> Meio Ambiente
+            <input type="checkbox" name="area4" value="ENG" /> Engenharia
+            <input type="checkbox" name="area5" value="HIS" /> História
+            <br>
+            <p>Mini-Currículo:
+            <textarea name="Mini curriculo" cols="20" rows="5">
+            </textarea>
+        </fieldset>
+        </p>
+        <input type="submit" name="enviar" value="Enviar" /> 
+        <input type="reset" value="Limpar" />
+    </form>
+    <a href="formulario.html">Ir para outra página</a>
+</body>
+</html>
